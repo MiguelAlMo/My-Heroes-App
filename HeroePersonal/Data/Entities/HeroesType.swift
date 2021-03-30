@@ -7,14 +7,9 @@
 
 import Foundation
 
-
+/// Hero type `marvel`, `dc` or `all`
 enum HeroesType: String, Codable {
-
     case marvel = "Marvel Comics"
     case dc = "DC Comics"
-    case all
-
+    case all = ""
 }
-
-
-

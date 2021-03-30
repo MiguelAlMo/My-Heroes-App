@@ -19,8 +19,6 @@
 		DB2EB2D325E7C8B9008E4AAF /* YourTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2EB2D225E7C8B9008E4AAF /* YourTeamViewController.swift */; };
 		DB2EB2D625E7C99C008E4AAF /* HeroViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2EB2D525E7C99C008E4AAF /* HeroViewCell.swift */; };
 		DB2EB2D925E7CA6A008E4AAF /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2EB2D825E7CA6A008E4AAF /* PersonViewController.swift */; };
-		DB2FF35125F5097700C861AD /* HeroDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FF35025F5097700C861AD /* HeroDTO.swift */; };
-		DB2FF35425F509AF00C861AD /* HeroesType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FF35325F509AF00C861AD /* HeroesType.swift */; };
 		DB36F74825E510EB006634B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36F74725E510EB006634B9 /* AppDelegate.swift */; };
 		DB36F74A25E510EB006634B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36F74925E510EB006634B9 /* SceneDelegate.swift */; };
 		DB36F74C25E510EB006634B9 /* DcMarvelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36F74B25E510EB006634B9 /* DcMarvelViewController.swift */; };
@@ -41,6 +39,8 @@
 		DB65B01225F78829000FAED4 /* add_hero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB65B00F25F78829000FAED4 /* add_hero.mp3 */; };
 		DB65B01325F78829000FAED4 /* select_enemy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB65B01025F78829000FAED4 /* select_enemy.mp3 */; };
 		DBA377A325FCCF7F004DAE19 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA377A225FCCF7F004DAE19 /* CoreDataManager.swift */; };
+		DBBA23F2261347AF005BC8D0 /* HeroDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA23F0261347AF005BC8D0 /* HeroDTO.swift */; };
+		DBBA23F926134873005BC8D0 /* HeroesType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA23F826134873005BC8D0 /* HeroesType.swift */; };
 		DBF187F225F7A61600692279 /* DataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF187F125F7A61600692279 /* DataDecoder.swift */; };
 		DBF36D4B25F78AFE00B1F340 /* Heroes_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DBF36D4A25F78AFE00B1F340 /* Heroes_data.json */; };
 /* End PBXBuildFile section */
@@ -59,8 +59,6 @@
 		DB2EB2D225E7C8B9008E4AAF /* YourTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourTeamViewController.swift; sourceTree = "<group>"; };
 		DB2EB2D525E7C99C008E4AAF /* HeroViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewCell.swift; sourceTree = "<group>"; };
 		DB2EB2D825E7CA6A008E4AAF /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
-		DB2FF35025F5097700C861AD /* HeroDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeroDTO.swift; path = ../../../../../../Documents/HeroDTO.swift; sourceTree = "<group>"; };
-		DB2FF35325F509AF00C861AD /* HeroesType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeroesType.swift; path = ../../../../../../Documents/HeroesType.swift; sourceTree = "<group>"; };
 		DB36F74425E510EB006634B9 /* HeroePersonal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroePersonal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB36F74725E510EB006634B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB36F74925E510EB006634B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +79,8 @@
 		DB65B00F25F78829000FAED4 /* add_hero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = add_hero.mp3; sourceTree = "<group>"; };
 		DB65B01025F78829000FAED4 /* select_enemy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = select_enemy.mp3; sourceTree = "<group>"; };
 		DBA377A225FCCF7F004DAE19 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		DBBA23F0261347AF005BC8D0 /* HeroDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDTO.swift; sourceTree = "<group>"; };
+		DBBA23F826134873005BC8D0 /* HeroesType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesType.swift; sourceTree = "<group>"; };
 		DBF187F125F7A61600692279 /* DataDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDecoder.swift; sourceTree = "<group>"; };
 		DBF36D4A25F78AFE00B1F340 /* Heroes_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Heroes_data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -245,9 +245,9 @@
 		DB36F76225E51333006634B9 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				DBBA23F0261347AF005BC8D0 /* HeroDTO.swift */,
+				DBBA23F826134873005BC8D0 /* HeroesType.swift */,
 				DBF36D4A25F78AFE00B1F340 /* Heroes_data.json */,
-				DB2FF35025F5097700C861AD /* HeroDTO.swift */,
-				DB2FF35325F509AF00C861AD /* HeroesType.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -339,13 +339,14 @@
 				DB26401625F181ED0045FCB5 /* BattleViewController.swift in Sources */,
 				DB2EB2CA25E7BB7C008E4AAF /* HomeViewController.swift in Sources */,
 				DB38371325F7692E00892DBF /* archivos comentados.swift in Sources */,
+				DBBA23F2261347AF005BC8D0 /* HeroDTO.swift in Sources */,
 				DB36F74C25E510EB006634B9 /* DcMarvelViewController.swift in Sources */,
+				DBBA23F926134873005BC8D0 /* HeroesType.swift in Sources */,
 				DB2EB2D625E7C99C008E4AAF /* HeroViewCell.swift in Sources */,
 				DB2EB2D025E7C08E008E4AAF /* CustomizeViewCell.swift in Sources */,
 				DBA377A325FCCF7F004DAE19 /* CoreDataManager.swift in Sources */,
 				DB24C91325F8E65800727E8C /* ApiService.swift in Sources */,
 				DB13ED2D25EE91E5000EE24E /* UIViewControllerExtension.swift in Sources */,
-				DB2FF35125F5097700C861AD /* HeroDTO.swift in Sources */,
 				DB087D1925FF7C2A00349E13 /* HeroEntityMapper.swift in Sources */,
 				DB2BB2A725FA6A0F00A1C6DD /* AnimatedLabel.swift in Sources */,
 				DBF187F225F7A61600692279 /* DataDecoder.swift in Sources */,
@@ -361,7 +362,6 @@
 				DB2EB2D325E7C8B9008E4AAF /* YourTeamViewController.swift in Sources */,
 				DB36F74825E510EB006634B9 /* AppDelegate.swift in Sources */,
 				DB36F74A25E510EB006634B9 /* SceneDelegate.swift in Sources */,
-				DB2FF35425F509AF00C861AD /* HeroesType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
