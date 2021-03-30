@@ -1,0 +1,30 @@
+/* 
+  Localized.strings
+  HeroePersonal
+
+  Created by Miguel Alarcon on 2/3/21.
+  
+*/
+//CustomizeViewController
+
+"customizeLabel" = "CUSTOMIZE YOUR TEAM";
+"minimumLabel" = "Minimum 3 DC + 3 MARVEL";
+"nameLabel" = "Name:";
+"publisherLabel" = "Power:";
+"raceLabel" = "Race:";
+
+
+//YourTeamViewController
+
+"yourTeamLabel" = "YOUR TEAM";
+
+
+//PersonViewController
+
+"statLabelIntelligence" = "Intelligence";
+"statLabelCombat" = "Combat";
+"statLabelStrength" = "Strength";
+"statLabelPower" = "Power";
+"statLabelSpeed" = "Speed";
+"statLabelDurability" = "Durability";
+

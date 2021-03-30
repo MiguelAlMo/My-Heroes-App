@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D80" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AppearanceEntity" representedClassName="AppearanceEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="race" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="BiographyEntity" representedClassName="BiographyEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="publisher" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="HeroEntity" representedClassName="HeroEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="appearance" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AppearanceEntity"/>
+        <relationship name="biography" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BiographyEntity"/>
+        <relationship name="image" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ImageEntity"/>
+        <relationship name="powerstats" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PowerstatsEntity"/>
+    </entity>
+    <entity name="ImageEntity" representedClassName="ImageEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PowerstatsEntity" representedClassName="PowerstatsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="combat" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="durability" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="intelligence" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="power" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="speed" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="strength" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="AppearanceEntity" positionX="-638.765625" positionY="-2.796875" width="128" height="44"/>
+        <element name="BiographyEntity" positionX="77.83203125" positionY="-104.42578125" width="128" height="44"/>
+        <element name="HeroEntity" positionX="-468.33203125" positionY="-329.6875" width="128" height="119"/>
+        <element name="ImageEntity" positionX="-806.8125" positionY="-104.1640625" width="128" height="44"/>
+        <element name="PowerstatsEntity" positionX="-206.7578125" positionY="-145.78125" width="128" height="119"/>
+    </elements>
+</model>
