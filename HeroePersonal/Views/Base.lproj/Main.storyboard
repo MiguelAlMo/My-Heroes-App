@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hAL-oC-v9F">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hAL-oC-v9F">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -232,7 +232,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vff-bZ-b7j">
-                                <rect key="frame" x="16" y="435" width="382" height="427"/>
+                                <rect key="frame" x="16" y="427" width="382" height="435"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Yqv-Ta-T9e">
                                     <size key="itemSize" width="64" height="63"/>
@@ -279,7 +279,7 @@
                                 </cells>
                             </collectionView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tqf-4x-3ID">
-                                <rect key="frame" x="14" y="104" width="386" height="315"/>
+                                <rect key="frame" x="14" y="96" width="386" height="315"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6KH-Fh-vNf">
                                         <rect key="frame" x="2" y="2" width="382" height="311"/>
@@ -411,7 +411,7 @@
                             <constraint firstItem="vff-bZ-b7j" firstAttribute="top" secondItem="tqf-4x-3ID" secondAttribute="bottom" constant="16" id="7Ox-FL-hql"/>
                             <constraint firstItem="3te-fg-wgn" firstAttribute="centerX" secondItem="7qs-Zr-nLH" secondAttribute="centerX" id="Bth-uG-amB"/>
                             <constraint firstItem="gvp-aZ-yMr" firstAttribute="trailing" secondItem="vff-bZ-b7j" secondAttribute="trailing" constant="16" id="XWf-X9-bDZ"/>
-                            <constraint firstItem="tqf-4x-3ID" firstAttribute="top" secondItem="gvp-aZ-yMr" secondAttribute="top" constant="16" id="eyH-GI-JCg"/>
+                            <constraint firstItem="tqf-4x-3ID" firstAttribute="top" secondItem="gvp-aZ-yMr" secondAttribute="top" constant="8" id="eyH-GI-JCg"/>
                             <constraint firstItem="gvp-aZ-yMr" firstAttribute="trailing" secondItem="tqf-4x-3ID" secondAttribute="trailing" constant="14" id="gYK-vT-cYg"/>
                             <constraint firstItem="tqf-4x-3ID" firstAttribute="leading" secondItem="gvp-aZ-yMr" secondAttribute="leading" constant="14" id="nMw-lU-d17"/>
                             <constraint firstItem="3te-fg-wgn" firstAttribute="top" secondItem="gvp-aZ-yMr" secondAttribute="top" constant="104" id="qcT-mm-GqG"/>
@@ -453,13 +453,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CUSTOMIZE YOUR TEAM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggk-zh-KeE">
-                                <rect key="frame" x="16" y="120" width="222.5" height="21.5"/>
+                                <rect key="frame" x="16" y="104" width="222.5" height="21.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G64-ut-xEl">
-                                <rect key="frame" x="16" y="157.5" width="382" height="180"/>
+                                <rect key="frame" x="16" y="141.5" width="382" height="180"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="RFu-wZ-KTB">
                                         <rect key="frame" x="8" y="8" width="366" height="164"/>
@@ -556,13 +556,13 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minimum 3 DC and 3 MARVEL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4O-R6-yNR">
-                                <rect key="frame" x="16" y="369.5" width="382" height="21.5"/>
+                                <rect key="frame" x="16" y="353.5" width="382" height="21.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nF2-Cd-xHO">
-                                <rect key="frame" x="333" y="112" width="65" height="33"/>
+                                <rect key="frame" x="333" y="98.5" width="65" height="33"/>
                                 <color key="backgroundColor" red="0.59800420744848481" green="0.085838377362906129" blue="0.057831876583828844" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="WYe-ft-2rH"/>
@@ -578,7 +578,7 @@
                                 </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="oPB-dG-9Lm">
-                                <rect key="frame" x="16" y="407" width="382" height="455"/>
+                                <rect key="frame" x="16" y="391" width="382" height="471"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MAW-i0-LsZ">
                                     <size key="itemSize" width="70" height="68"/>
@@ -628,7 +628,7 @@
                         <viewLayoutGuide key="safeArea" id="9oW-f5-iGP"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Ggk-zh-KeE" firstAttribute="top" secondItem="9oW-f5-iGP" secondAttribute="top" constant="32" id="3fb-D0-RJ8"/>
+                            <constraint firstItem="Ggk-zh-KeE" firstAttribute="top" secondItem="9oW-f5-iGP" secondAttribute="top" constant="16" id="3fb-D0-RJ8"/>
                             <constraint firstItem="oPB-dG-9Lm" firstAttribute="top" secondItem="z4O-R6-yNR" secondAttribute="bottom" constant="16" id="8Ok-pZ-ogD"/>
                             <constraint firstItem="9oW-f5-iGP" firstAttribute="trailing" secondItem="z4O-R6-yNR" secondAttribute="trailing" constant="16" id="Anv-qb-6mt"/>
                             <constraint firstItem="G64-ut-xEl" firstAttribute="leading" secondItem="9oW-f5-iGP" secondAttribute="leading" constant="16" id="B74-Hn-Go9"/>
@@ -645,7 +645,7 @@
                             <constraint firstItem="z4O-R6-yNR" firstAttribute="top" secondItem="G64-ut-xEl" secondAttribute="bottom" constant="32" id="mIB-TA-tzf"/>
                             <constraint firstItem="z4O-R6-yNR" firstAttribute="leading" secondItem="9oW-f5-iGP" secondAttribute="leading" constant="16" id="nXd-Rx-V7p"/>
                             <constraint firstItem="oPB-dG-9Lm" firstAttribute="leading" secondItem="9oW-f5-iGP" secondAttribute="leading" constant="16" id="nvJ-Gu-asl"/>
-                            <constraint firstItem="nF2-Cd-xHO" firstAttribute="top" secondItem="9oW-f5-iGP" secondAttribute="top" constant="24" id="x12-So-bdf"/>
+                            <constraint firstItem="nF2-Cd-xHO" firstAttribute="centerY" secondItem="Ggk-zh-KeE" secondAttribute="centerY" id="q0v-b2-d6J"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JoJ-qG-KXJ">
@@ -779,7 +779,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="HomeViewCell" rowHeight="227" id="XRg-Z0-6WC" customClass="HomeViewCell" customModule="HeroePersonal" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="227"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="227"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XRg-Z0-6WC" id="1ZE-2X-ceP">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="227"/>
@@ -831,7 +831,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="siy-qh-DSl">
-                        <barButtonItem key="backBarButtonItem" title=" " id="hsb-bP-aHi"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="hsb-bP-aHi">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="imageBack" destination="rz9-c5-vca" id="Ijd-Mo-o35"/>
@@ -892,7 +894,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="S9B-gE-Gyi">
-                                <rect key="frame" x="0.0" y="174" width="414" height="688"/>
+                                <rect key="frame" x="0.0" y="166" width="414" height="696"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="yJM-h4-UWi">
                                     <size key="itemSize" width="169" height="168"/>
@@ -939,17 +941,18 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marvel _logo" translatesAutoresizingMaskIntoConstraints="NO" id="aaL-Aw-iJw">
-                                <rect key="frame" x="-59.5" y="96" width="533" height="70"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marvel_logo" translatesAutoresizingMaskIntoConstraints="NO" id="aaL-Aw-iJw">
+                                <rect key="frame" x="147" y="88" width="120" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="0BD-Ku-lDT"/>
+                                    <constraint firstAttribute="width" constant="120" id="TxO-yR-4C5"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OxO-GG-ibB"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="aaL-Aw-iJw" firstAttribute="top" secondItem="OxO-GG-ibB" secondAttribute="top" constant="8" id="5Ob-ji-KXM"/>
+                            <constraint firstItem="aaL-Aw-iJw" firstAttribute="top" secondItem="OxO-GG-ibB" secondAttribute="top" id="5Ob-ji-KXM"/>
                             <constraint firstItem="S9B-gE-Gyi" firstAttribute="leading" secondItem="OxO-GG-ibB" secondAttribute="leading" id="HCq-RB-vtU"/>
                             <constraint firstAttribute="bottom" secondItem="e0L-F1-aca" secondAttribute="bottom" id="cMb-dk-Jag"/>
                             <constraint firstItem="aaL-Aw-iJw" firstAttribute="centerX" secondItem="BH2-PM-UMR" secondAttribute="centerX" id="dvg-e5-TbK"/>
@@ -962,7 +965,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title=" " id="a4e-YQ-qVu">
-                        <barButtonItem key="backBarButtonItem" title="  " id="xKV-QK-be0"/>
+                        <barButtonItem key="backBarButtonItem" title="  " id="xKV-QK-be0">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="S9B-gE-Gyi" id="hL1-e8-jNY"/>
@@ -1008,7 +1013,7 @@
         <image name="icono_power_blue_tres" width="91" height="60"/>
         <image name="icono_power_blue_uno" width="91" height="60"/>
         <image name="martillo-de-thor" width="32" height="32"/>
-        <image name="marvel _logo" width="533.33331298828125" height="378.66665649414062"/>
+        <image name="marvel_logo" width="533.33331298828125" height="378.66665649414062"/>
         <image name="marvel_logo_black" width="1024" height="1021"/>
         <image name="superheroe-1" width="32" height="32"/>
         <image name="thor_2" width="160" height="213.33332824707031"/>

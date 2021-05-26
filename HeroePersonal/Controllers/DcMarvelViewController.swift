@@ -17,7 +17,7 @@ class DcMarvelViewController: UIViewController {
     var heroes : [HeroEntity] = []
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+    
         
         switch heroesType {
             case .dc: imageBack.image = UIImage(named: "batman_fondo_dc")
@@ -33,7 +33,6 @@ class DcMarvelViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
     }
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
